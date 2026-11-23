@@ -2,6 +2,7 @@
 
 int main()
 {
+    LCD.WriteLine("Hello World!\n");
     LCD.WriteLine("Hello World!");
     while (1) {
         LCD.Update();
